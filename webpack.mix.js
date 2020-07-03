@@ -9,20 +9,20 @@ mix
   .webpackConfig({
     plugins: [
       new CopyWebpackPlugin({
-        patterns: [{ from: "src/images", to: "dist/images" }],
+        patterns: [{ from: "src/images", to: "dist/images" }]
       }),
 
       new ImageminPlugin({
         test: /\.(jpe?g|png|gif|svg)$/i,
         plugins: [
           imageminMozjpeg({
-            quality: 80,
-          }),
-        ],
-      }),
-    ],
+            quality: 80
+          })
+        ]
+      })
+    ]
   })
   .sass("src/sass/app.scss", "dist/css")
   .tailwind("./tailwind.config.js")
   .js("src/js/app.js", "dist/js")
-  .copy("src/**/*.html", "dist/");
+  .copy("src/*.*", "dist/");

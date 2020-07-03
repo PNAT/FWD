@@ -1,5 +1,9 @@
 {
     "/dist/js/app.js": "/dist/js/app.js",
     "/dist/css/app.css": "/dist/css/app.css",
-    "/dist/index.html": "/dist/index.html"
+    "/dist/browserconfig.xml": "/dist/browserconfig.xml",
+    "/dist/index.html": "/dist/index.html",
+    "/dist/manifest.webmanifest": "/dist/manifest.webmanifest",
+    "/dist/offline.html": "/dist/offline.html",
+    "/dist/service-worker.js": "/dist/service-worker.js"
 }

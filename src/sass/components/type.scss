@@ -20,8 +20,9 @@ strong {
 }
 
 body {
-  @apply text-gray-400;
+  @apply text-gray-400 leading-normal;
   font-size: calc(1rem + ((1vw - 0.000625rem) * 0.1564));
+  text-rendering: optimizeLegibility;
 
   @screen xl {
     font-size: 1.125rem;

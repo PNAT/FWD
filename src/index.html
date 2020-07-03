@@ -3,12 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap" rel="stylesheet" />
+    <title>Forward</title>
+    <meta
+      name="description"
+      content="We buy, build and invest in profitable businesses."
+    />
+
+    <link rel="manifest" href="manifest.webmanifest" />
+    <meta name="msapplication-config" content="browserconfig.xml" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#00202c" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/app.css" />
   </head>
   <body>
-    <a name="top"></a>
     <header class="header">
       <div class="container">
         <div class=" flex items-center justify-between">
@@ -23,21 +55,31 @@
             <a href="#why-forward" class="navigation__item">Why Forward</a>
             <a href="#team" class="navigation__item">Team</a>
             <a href="#scout" class="navigation__item">Scout</a>
-            <a href="#contact" class="navigation__item btn btn--sm btn--primary ml-6">Contact</a>
+            <a
+              href="#contact"
+              class="navigation__item btn btn--sm btn--primary ml-6"
+              >Contact</a
+            >
           </nav>
         </div>
       </div>
     </header>
-    <div class="content">
-      <section class="section pt-24">
+    <div class="pt-24">
+      <section class="section">
         <div class="container">
-          <div class="flex flex-col sm:flex-row -mx-4 items-center">
-            <div class="px-4 w-full sm:w-1/2 mb-8 sm:mb-0" data-sal="slide-up" style="--sal-duration: 0.5s;">
+          <div class="flex flex-col sm:flex-row items-center -mx-4">
+            <div
+              class="px-4 w-full sm:w-1/2 mb-8 sm:mb-0"
+              data-sal="slide-up"
+              style="--sal-duration: 0.5s;"
+            >
               <h2 class="h1 mb-2">
                 We buy, build and invest<br class="hidden xl:block" />
                 in profitable businesses.
               </h2>
-              <p class="h4 font-light mb-6">Looking to sell your business, or know someone who is?</p>
+              <p class="h4 font-light mb-6 lg:mb-12">
+                Looking to sell your business, or know someone who is?
+              </p>
               <p>
                 <a href="#contact" class="btn btn--primary">Let us know</a>
               </p>
@@ -47,147 +89,211 @@
                 <img
                   src="images/hero.svg"
                   width="683"
-                  height="502.306"
+                  height="502"
                   loading="lazy"
-                  class="max-w-full h-auto"
-                  alt="" data-sal="fade" style="--sal-duration: 1s; --sal-delay: 100ms"
+                  class="max-w-full h-auto lg:max-w-none"
+                  alt=""
+                  data-sal="fade"
+                  style="--sal-duration: 1s; --sal-delay: 100ms"
                 />
               </p>
             </div>
           </div>
         </div>
       </section>
-      <div class="edge" aria-hidden="true" role="presentation" style="background-image: url(images/edge-01.svg); padding-top: 29%;"></div>
+      <div
+        class="edge"
+        aria-hidden="true"
+        role="presentation"
+        style="background-image: url(images/edge-01.svg); padding-top: 29%; margin-top:-15%"
+      ></div>
       <section class="section bg-gray-400 text-gray-200" id="criteria">
         <div class="container">
           <div class="flex flex-col lg:flex-row -mx-4">
             <div class="px-4 w-full lg:w-1/3">
-              <div class="bg-primary-400 p-12 mb-12">
-                <p class="h4 text-white font-light">
-                  Our ideal business has high margins, recurring revenue and doesn’t require lots of people or
-                  complicated technology.
-                </p>
+              <div class="lg:bg-primary-400 mb-12 lg:mr-12">
+                <div class="lg:p-12">
+                  <p class="h4 text-white font-light">
+                    Our ideal business has high margins, recurring revenue and
+                    doesn’t require lots of people or complicated technology.
+                  </p>
+                </div>
+                <div
+                  class="edge hidden lg:block"
+                  aria-hidden="true"
+                  role="presentation"
+                  style="background-image: url(images/edge-05.svg); padding-top: 27%;"
+                ></div>
               </div>
             </div>
             <div class="px-4 w-full lg:w-2/3">
-              <h2 class="h2 text-white mb-8">Initial target <span class="text-primary-400">criteria</span></h2>
+              <h2 class="h2 text-white mb-8">
+                Initial target <span class="text-primary-400">criteria</span>
+              </h2>
               <p class="h4 text-gray-200 font-light mb-4">
-                We prioritize your team and sustainable advantage over specific criteria.
+                We prioritize your team and sustainable advantage over specific
+                criteria.
               </p>
               <div class="flex flex-col sm:flex-row -mx-2 my-12">
                 <div class="px-2 w-full sm:w-1/3">
-                  <div class="text-center bg-gray-500 rounded py-10 px-4 h-full mb-2">
+                  <div class="text-center bg-gray-500 py-10 px-4 h-full mb-2">
                     <h3 class="h4 text-white">$500k - $10m</h3>
                     <p>of annual profits</p>
                   </div>
                 </div>
                 <div class="px-2 w-full sm:w-1/3">
-                  <div class="text-center bg-gray-500 rounded py-10 px-4 h-full mb-2">
+                  <div class="text-center bg-gray-500 py-10 px-4 h-full mb-2">
                     <h3 class="h4 text-white">5+ years</h3>
                     <p>of operating history</p>
                   </div>
                 </div>
                 <div class="px-2 w-full sm:w-1/3">
-                  <div class="text-center bg-gray-500 rounded py-10 px-4 h-full mb-2">
+                  <div class="text-center bg-gray-500 py-10 px-4 h-full mb-2">
                     <h3 class="h4 text-white">Majority</h3>
                     <p>ownership stake available</p>
                   </div>
                 </div>
               </div>
-              <div class="flex flex-wrap -mx-2 text-center">
-                <div class="px-2 w-full sm:w-1/3 mb-8 lg:mb-12">
+              <div class="flex flex-wrap -mx-4 text-center">
+                <div class="px-4 w-full sm:w-1/3 mb-8 lg:mb-12">
                   <p class="mb-2">
                     <img
                       src="images/sprite/icon-industry-agnostic.svg"
                       loading="lazy"
-                      class="w-16 h-16 mx-auto"
+                      class="w-14 h-14 mx-auto"
                       alt=""
                     />
                   </p>
-                  <h3 class="h5 text-white">Industry Agnostic</h3>
+                  <h3 class="h5 text-white mb-1">Industry Agnostic</h3>
                   <p>because we’re more interested in your business and team</p>
                 </div>
-                <div class="px-2 w-full sm:w-1/3 mb-8 lg:mb-12">
+                <div class="px-4 w-full sm:w-1/3 mb-8 lg:mb-12">
                   <p class="mb-2">
-                    <img src="images/sprite/icon-north-american.svg" loading="lazy" class="w-16 h-16 mx-auto" alt="" />
+                    <img
+                      src="images/sprite/icon-north-american.svg"
+                      loading="lazy"
+                      class="w-14 h-14 mx-auto"
+                      alt=""
+                    />
                   </p>
-                  <h3 class="h5 text-white">North American</h3>
+                  <h3 class="h5 text-white mb-1">North American</h3>
                   <p>operations (with a bias for Western Canadian companies)</p>
                 </div>
-                <div class="px-2 w-full sm:w-1/3 mb-8 lg:mb-12">
+                <div class="px-4 w-full sm:w-1/3 mb-8 lg:mb-12">
                   <p class="mb-2">
-                    <img src="images/sprite/icon-team.svg" loading="lazy" class="w-16 h-16 mx-auto" alt="" />
+                    <img
+                      src="images/sprite/icon-team.svg"
+                      loading="lazy"
+                      class="w-14 h-14 mx-auto"
+                      alt=""
+                    />
                   </p>
-                  <h3 class="h5 text-white">High Quality Team</h3>
+                  <h3 class="h5 text-white mb-1">High Quality Team</h3>
                   <p>in place to continue operations</p>
                 </div>
-                <div class="px-2 w-full sm:w-1/3 mb-8 lg:mb-12">
+                <div class="px-4 w-full sm:w-1/3 mb-8 lg:mb-12">
                   <p class="mb-2">
                     <img
                       src="images/sprite/icon-defensible-advantage.svg"
                       loading="lazy"
-                      class="w-16 h-16 mx-auto"
+                      class="w-14 h-14 mx-auto"
                       alt=""
                     />
                   </p>
-                  <h3 class="h5 text-white">Defensible advantage</h3>
+                  <h3 class="h5 text-white mb-1">Defensible advantage</h3>
                   <p>such as a strong brand or barriers for new entrants</p>
                 </div>
-                <div class="px-2 w-full sm:w-1/3 mb-8 lg:mb-12">
+                <div class="px-4 w-full sm:w-1/3 mb-8 lg:mb-12">
                   <p class="mb-2">
-                    <img src="images/sprite/icon-scale.svg" loading="lazy" class="w-16 h-16 mx-auto" alt="" />
+                    <img
+                      src="images/sprite/icon-scale.svg"
+                      loading="lazy"
+                      class="w-14 h-14 mx-auto"
+                      alt=""
+                    />
                   </p>
-                  <h3 class="h5 text-white">Can scale quickly</h3>
+                  <h3 class="h5 text-white mb-1">Can scale quickly</h3>
                   <p>without a large investment in people or technology</p>
                 </div>
-                <div class="px-2 w-full sm:w-1/3 mb-8 lg:mb-12">
+                <div class="px-4 w-full sm:w-1/3 mb-8 lg:mb-12">
                   <p class="mb-2">
-                    <img src="images/sprite/icon-not-targeting.svg" loading="lazy" class="w-16 h-16 mx-auto" alt="" />
+                    <img
+                      src="images/sprite/icon-not-targeting.svg"
+                      loading="lazy"
+                      class="w-14 h-14 mx-auto"
+                      alt=""
+                    />
                   </p>
-                  <h3 class="h5 text-white">We aren’t targeting</h3>
-                  <p>retail, hospitality, restaurants or oil & gas assets currently</p>
+                  <h3 class="h5 text-white mb-1">We aren’t targeting</h3>
+                  <p>
+                    retail, hospitality, restaurants or oil & gas assets
+                    currently
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <div class="edge" aria-hidden="true" role="presentation" style="background-image: url(images/edge-02.svg); padding-top: 29%;"></div>
+      <div
+        class="edge"
+        aria-hidden="true"
+        role="presentation"
+        style="background-image: url(images/edge-02.svg); padding-top: 29%; margin-bottom:-15%"
+      ></div>
       <section class="section" id="why-forward">
         <div class="container">
-          <div class="flex flex-col sm:flex-row sm:flex-wrap lg:flex-no-wrap -mx-4">
+          <div
+            class="flex flex-col sm:flex-row sm:flex-wrap lg:flex-no-wrap -mx-4"
+          >
             <div class="px-4 w-full sm:w-full md:w-2/3 lg:w-auto mb-12">
               <h2 class="h2 mb-8">Why Forward?</h2>
               <p class="h4 font-light">
-                We’re founders ourselves; we know the amount of blood, sweat and tears that you’ve invested in your
-                company.
+                We’re founders ourselves; we know the amount of blood, sweat and
+                tears that you’ve invested in your company.
               </p>
             </div>
             <div class="px-8 w-full sm:w-full md:w-1/3 lg:w-auto flex-shrink-0">
-              <p class="text-center mb-6">
-                <img src="images/logo-icon.svg" width="130" alt="" />
+              <p class="text-center mb-8">
+                <img
+                  src="images/logo-icon.svg"
+                  width="130"
+                  class="mx-auto"
+                  alt=""
+                />
               </p>
             </div>
             <div class="px-4 w-full sm:w-full lg:w-auto">
               <h3 class="h4 mb-4">
-                <span>We are not your typical buyer.</span><br />We acquire companies with a long-term outlook.
+                <span class="text-primary-500"
+                  >We are not your typical buyer.</span
+                ><br />We acquire companies with a long-term outlook.
               </h3>
               <p class="mb-4">
-                We won’t flip your company to make a quick buck or destroy the culture you’ve worked hard to build.
-                We’re open to you sticking around or leaving for a new adventure.
+                We won’t flip your company to make a quick buck or destroy the
+                culture you’ve worked hard to build. We’re open to you sticking
+                around or leaving for a new adventure.
               </p>
-              <p class="mb-4">
-                We prioritize keeping the process fair and straightforward. We’ll make an offer in a week and typically
-                close within a month.
+              <p class="mb-8">
+                We prioritize keeping the process fair and straightforward.
+                We’ll make an offer in a week and typically close within a
+                month.
               </p>
               <p>
-                <a href="#contact" class="btn btn--primary">Tell us about your company</a>
+                <a href="#contact" class="btn btn--primary"
+                  >Tell us about your company</a
+                >
               </p>
             </div>
           </div>
         </div>
       </section>
-      <div class="edge" aria-hidden="true" role="presentation" style="background-image: url(images/edge-03.svg); padding-top: 15%;"></div>
+      <div
+        class="edge"
+        aria-hidden="true"
+        role="presentation"
+        style="background-image: url(images/edge-03.svg); padding-top: 15%;"
+      ></div>
       <section class="section bg-gray-400 text-gray-200" id="team">
         <div class="container">
           <div class="text-center">
@@ -196,79 +302,146 @@
               operators and entrepreneurs.
             </h2>
             <p class="h4 text-white font-light mx-auto max-w-screen-md mb-6">
-              Our team brings passion and experience in technology, healthcare, real estate, marketing and professional
-              management.
+              Our team brings passion and experience in technology, healthcare,
+              real estate, marketing and professional management.
             </p>
             <p class="mb-6">
-              <img src="images/sprite/icon-canada-leaf.svg" class="w-12 mx-auto" alt="" />
+              <img
+                src="images/sprite/icon-canada-leaf.svg"
+                class="w-12 mx-auto"
+                alt=""
+              />
             </p>
             <p>
-              We’re a private investment and management company based in Calgary, Alberta, Canada.
+              We’re a private investment and management company based in
+              Calgary, Alberta, Canada.
             </p>
           </div>
         </div>
       </section>
-      <div class="edge aria-hidden="true" role="presentation"" style="background-image: url(images/edge-04.svg); padding-top: 29%;"></div>
+      <div
+        class="edge"
+        aria-hidden="true"
+        role="presentation"
+        style="background-image: url(images/edge-04.svg); padding-top: 29%; margin-bottom:-15%"
+      ></div>
       <section class="section" id="scout">
         <div class="container">
           <div class="flex flex-col sm:flex-row items-center -mx-4">
             <div class="px-4 w-full sm:w-1/2 mb-8">
               <p>
-                <img src="images/scout.svg" width="461.9" height="404.796" loading="lazy" alt="" />
+                <img
+                  src="images/scout.svg"
+                  width="462"
+                  height="405"
+                  loading="lazy"
+                  alt=""
+                />
               </p>
             </div>
             <div class="px-4 w-full sm:w-1/2">
-              <h2 class="h2 mb-8">We’re constantly looking for great companies.</h2>
-              <p class="mb-4">If you introduce us to a company that we end up buying we’ll compensate you for the introduction.</p>
+              <h2 class="h2 mb-8">
+                We’re constantly looking for great companies.
+              </h2>
+              <p class="mb-4">
+                If you introduce us to a company that we end up buying we’ll
+                compensate you for the introduction.
+              </p>
               <p>
-                Just send us a note with a brief pitch and we’ll confirm we haven’t talked with the company in the past.
-                If we make a deal you’ll get a scouting fee.
+                Just send us a note with a brief pitch and we’ll confirm we
+                haven’t talked with the company in the past. If we make a deal
+                you’ll get a scouting fee.
               </p>
             </div>
           </div>
         </div>
       </section>
-      <div class="edge" aria-hidden="true" role="presentation" style="background-image: url(images/edge-03.svg); padding-top: 15%;"></div>
+      <div
+        class="edge"
+        aria-hidden="true"
+        role="presentation"
+        style="background-image: url(images/edge-03.svg); padding-top: 15%;"
+      ></div>
       <footer class="section bg-gray-400 text-gray-200" id="contact">
         <div class="container">
-          <div>
+          <div class="pb-64">
             <div class="flex flex-col sm:flex-row -mx-4">
               <div class="px-4 w-full sm:w-1/2 mb-12">
-                <h2 class="h2 text-white mb-4">If it sounds like a fit we’d love to chat.</h2>
+                <h2 class="h2 text-white mb-4">
+                  If it sounds like a fit we’d love to chat.
+                </h2>
                 <p>Tell us about your company and what you have in mind.</p>
-                <p>Or if you’d prefer say 👋 at <a href="mailto:hello@gofwd.ca">hello@gofwd.ca</a></p>
+                <p>
+                  Or if you’d prefer say 👋 at
+                  <a href="mailto:hello@gofwd.ca">hello@gofwd.ca</a>
+                </p>
               </div>
               <div class="px-4 w-full sm:w-1/2">
-                <form action="">
+                <form
+                  id="contact-form_js"
+                  action="https://formspree.io/xdowwkbb"
+                  method="POST"
+                  data-success="Thanks! Will get back to you!"
+                  data-error="Oops! There was a problem. Try again later"
+                >
                   <div class="md:flex -mx-2">
                     <div class="px-2 w-full md:w-1/2">
                       <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Name" />
+                        <input
+                          type="text"
+                          class="form-control bg-gray-500 focus:bg-gray-500"
+                          placeholder="Name"
+                          name="name"
+                          autocomplete="given-name"
+                          required
+                        />
                       </div>
                     </div>
                     <div class="px-2 w-full md:w-1/2">
                       <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Email" />
+                        <input
+                          type="email"
+                          class="form-control bg-gray-500 focus:bg-gray-500"
+                          placeholder="Email"
+                          name="reply-to"
+                          autocomplete="email"
+                          required
+                        />
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
                     <textarea
-                      class="form-control"
+                      class="form-control bg-gray-500 focus:bg-gray-500"
+                      name="message"
+                      required
                       placeholder="Tell us about your company and what you have in mind..."
                     ></textarea>
                   </div>
                   <div class="form-group">
-                    <button type="submit" class="btn btn--primary">Send it</button>
+                    <button
+                      type="submit"
+                      class="btn btn--primary"
+                      id="contact-form-submit_js"
+                    >
+                      Send it
+                    </button>
                   </div>
+                  <p id="contact-form-status_js"></p>
                 </form>
               </div>
             </div>
           </div>
           <div>
             <p class="text-xs">
-              © Forward <img src="images/logo-white.svg" class="w-5 mx-1 inline-block" loading="lazy" alt="" /> Enterprises
-              Inc.
+              © Forward
+              <img
+                src="images/logo-white.svg"
+                class="w-5 mx-1 inline-block"
+                loading="lazy"
+                alt=""
+              />
+              Enterprises Inc.
             </p>
           </div>
         </div>
@@ -276,5 +449,17 @@
     </div>
 
     <script src="js/app.js" defer></script>
+    <script>
+      if (!navigator.serviceWorker.controller) {
+        navigator.serviceWorker
+          .register("service-worker.js", {
+            scope: "./"
+          })
+          .then(function(reg) {
+            console.log(reg.scope, "register");
+            console.log("Service worker change, registered the service worker");
+          });
+      }
+    </script>
   </body>
 </html>
