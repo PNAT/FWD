@@ -1,0 +1,20 @@
+.btn {
+  @apply border-0 m-0 appearance-none inline-flex items-center justify-center h-12 outline-none rounded px-6 font-medium no-underline transition-all duration-75;
+
+  &--primary {
+    @apply bg-primary-400 text-white;
+
+    &:hover {
+      @apply bg-primary-500;
+    }
+
+    &:focus {
+      @apply outline-none;
+      box-shadow: 0 0 0 3px rgba(235, 101, 20, 0.5);
+    }
+  }
+
+  &--sm {
+    @apply h-10 px-4;
+  }
+}

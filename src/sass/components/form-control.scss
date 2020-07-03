@@ -1,0 +1,12 @@
+.form-control {
+  @apply border-0 bg-gray-100 appearance-none outline-none h-12 px-4 rounded font-light block w-full;
+
+  &:focus {
+    @apply outline-none bg-white;
+    box-shadow: 0 0 0 2px theme("colors.primary.400");
+  }
+}
+
+textarea.form-control {
+  @apply p-4 h-auto;
+}

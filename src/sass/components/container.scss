@@ -1,0 +1,8 @@
+.container {
+  @apply w-full px-4;
+  max-width: $container-max-width;
+
+  @screen xl {
+    width: $container-width;
+  }
+}

@@ -1,0 +1,18 @@
+@import "./components/tailwind";
+
+@import "./variables";
+@import "./components/body";
+@import "./components/type";
+@import "./components/container";
+@import "./components/header";
+@import "./components/navigation";
+@import "./components/section";
+@import "./components/btn";
+@import "./components/form-control";
+@import "./components/form-group";
+@import "./components/edge";
+@import "../../node_modules/sal.js/src/sal";
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */

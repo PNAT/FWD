@@ -1,0 +1,15 @@
+.navigation {
+  @apply hidden;
+
+  @screen md {
+    @apply flex items-center justify-end font-medium text-gray-500;
+  }
+
+  &__item:not(.btn) {
+    @apply py-4 px-2;
+
+    &.is-active {
+      @apply text-primary-500;
+    }
+  }
+}

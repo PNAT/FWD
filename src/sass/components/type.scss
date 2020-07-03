@@ -1,0 +1,67 @@
+// https://websemantics.uk/tools/responsive-font-calculator/
+// from 480 to 1280px
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+  @apply font-medium text-gray-500;
+  min-height: 0vw;
+}
+
+strong {
+  @apply font-medium;
+}
+
+body {
+  @apply text-gray-400;
+  font-size: calc(1rem + ((1vw - 0.000625rem) * 0.1564));
+
+  @screen xl {
+    font-size: 1.125rem;
+  }
+}
+
+.h1 {
+  @apply leading-tight;
+  font-size: calc(1.75rem + ((1vw - 0.000625rem) * 1.5637));
+  letter-spacing: -0.03em;
+
+  @screen xl {
+    font-size: 3rem;
+  }
+}
+
+.h2 {
+  @apply leading-tight;
+  font-size: calc(1.5rem + ((1vw - 0.000625rem) * 1.4073));
+  letter-spacing: -0.03em;
+
+  @screen xl {
+    font-size: 2.625rem;
+  }
+}
+
+.h3 {
+  @apply leading-tight;
+  font-size: calc(1.125rem + ((1vw - 0.000625rem) * 1.0946));
+  letter-spacing: -0.03em;
+
+  @screen xl {
+    font-size: 2rem;
+  }
+}
+
+.h4 {
+  font-size: calc(1rem + ((1vw - 0.000625rem) * 0.6255));
+
+  @screen xl {
+    font-size: 1.5rem;
+  }
+}
