@@ -7,6 +7,10 @@
   }
 }
 
+.bg-gray-500::placeholder {
+  color: theme("colors.gray.300");
+}
+
 textarea.form-control {
   @apply p-4 h-auto;
 }

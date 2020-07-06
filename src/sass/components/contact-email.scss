@@ -1,0 +1,35 @@
+.contact-email {
+  @apply inline-block relative pb-1 cursor-pointer;
+
+  &::before {
+    @apply absolute inset-x-0 bottom-0 w-full;
+
+    content: "";
+    height: 2px;
+    background: theme("colors.primary.400");
+    transition: all 0.25s ease-in-out;
+  }
+
+  &::after {
+    @apply font-bold uppercase bg-primary-400 p-1 rounded tracking-wider absolute text-gray-500 text-xs opacity-0 transition-all transform duration-100;
+    content: "Copied!";
+    left: calc(50% - 30px);
+    transform: rotate(6deg) translateY(5px);
+  }
+
+  &:hover {
+    @apply text-white;
+
+    &::before {
+      width: 0px;
+      right: auto;
+    }
+  }
+
+  &.is-copied {
+    &::after {
+      @apply opacity-100;
+      transform: rotate(-6deg) translateY(0);
+    }
+  }
+}

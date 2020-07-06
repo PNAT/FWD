@@ -1,3 +1,6 @@
 .edge {
-  @apply w-full m-0 bg-no-repeat bg-cover select-none pointer-events-none;
+  @apply min-w-full bg-no-repeat select-none pointer-events-none;
+
+  background-size: cover;
+  margin: -1px 0;
 }
