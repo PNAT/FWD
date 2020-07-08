@@ -1,15 +1,17 @@
 (() => {
-  const copyEmailLink = document.querySelector(".email_js");
+  const copyEmailLinks = document.querySelectorAll(".email_js");
 
   // Copy email to clipboard
-  copyEmailLink.onclick = e => {
-    e.preventDefault();
-    copyToClipboard(e.target.dataset.e);
-    e.target.classList.add("is-copied");
-    setTimeout(() => {
-      e.target.classList.remove("is-copied");
-    }, 1000);
-  };
+  copyEmailLinks.forEach(item => {
+    item.onclick = e => {
+      e.preventDefault();
+      copyToClipboard(e.target.dataset.e);
+      e.target.classList.add("is-copied");
+      setTimeout(() => {
+        e.target.classList.remove("is-copied");
+      }, 1000);
+    };
+  });
 
   // Copy-paste straight from the internets 🙏
   const copyToClipboard = str => {

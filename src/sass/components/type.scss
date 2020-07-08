@@ -31,11 +31,11 @@ body {
 
 .h1 {
   @apply leading-tight;
-  font-size: calc(1.75rem + ((1vw - 0.000625rem) * 1.5637));
+  font-size: calc(1.75rem + ((1vw - 0.000625rem) * 2.1892));
   letter-spacing: -0.03em;
 
   @screen xl {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 }
 

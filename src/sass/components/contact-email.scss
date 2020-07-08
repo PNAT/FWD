@@ -1,5 +1,6 @@
 .contact-email {
-  @apply inline-block relative pb-1 cursor-pointer;
+  @apply inline-block relative cursor-pointer;
+  padding-bottom: 0.1em;
 
   &::before {
     @apply absolute inset-x-0 bottom-0 w-full;
@@ -18,7 +19,9 @@
   }
 
   &:hover {
-    @apply text-white;
+    .bg-gray-400 & {
+      @apply text-white;
+    }
 
     &::before {
       width: 0px;
